@@ -2,9 +2,9 @@
 # General Variables from root module
 ################################################################################
 
-variable "main-region" {
+variable "eu_region" {
   type    = string
-  default = "us-west-2"
+  default = "eu-west-2"
 }
 
 variable "env_name" {
