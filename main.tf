@@ -27,7 +27,7 @@ module "eks" {
 module "aws_alb_controller" {
   source = "./modules/aws-alb-controller"
 
-  main-region  = var.main-region
+  main-region  = var.eu_region
   env_name     = var.env_name
   cluster_name = var.cluster_name
 
